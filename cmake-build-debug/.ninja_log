@@ -1,0 +1,13 @@
+# ninja log v5
+11	510	7566514990845476	CMakeFiles/ossim_student.dir/PCB.cpp.obj	924902857e359d65
+3	485	7567292420094853	CMakeFiles/ossim_student.dir/main.cpp.obj	8dca12105719a50e
+2	527	7567296714214966	CMakeFiles/ossim_student.dir/OS.cpp.obj	6fb88b8f6d22f28a
+3	288	7566515134349250	CMakeFiles/ossim_student.dir/disk.cpp.obj	bd35f01042a12680
+529	711	7567296716031457	ossim_student.exe	188db927a1e63f0c
+3	538	7567298335634868	CMakeFiles/ossim_student.dir/OS.cpp.obj	6fb88b8f6d22f28a
+539	718	7567298337426671	ossim_student.exe	188db927a1e63f0c
+15	323	7567313402253523	CMakeFiles/ossim_student.dir/disk.cpp.obj	bd35f01042a12680
+3	571	7567313404719050	CMakeFiles/ossim_student.dir/OS.cpp.obj	6fb88b8f6d22f28a
+571	763	7567313406619337	ossim_student.exe	188db927a1e63f0c
+3	1438	7567931654054379	CMakeFiles/ossim_student.dir/disk.cpp.obj	bd35f01042a12680
+1439	2307	7567931662725962	ossim_student.exe	188db927a1e63f0c

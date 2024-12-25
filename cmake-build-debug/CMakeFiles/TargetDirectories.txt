@@ -1,0 +1,3 @@
+D:/AAA_MyFile/valueable/Project/ossim-student/cmake-build-debug/CMakeFiles/ossim_student.dir
+D:/AAA_MyFile/valueable/Project/ossim-student/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AAA_MyFile/valueable/Project/ossim-student/cmake-build-debug/CMakeFiles/rebuild_cache.dir
