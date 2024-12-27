@@ -100,6 +100,8 @@ void OperatingSystem::Fork()
     all_processes[CPU]->AddChildProcess(new_process);
 
     ready_queue.push_back(new_process->GetPid());
+
+    cout << "已创建子进程：PID = " << number_of_processes << "，父进程 PID = " << CPU << endl;
 }
 
 // 将给定进程添加到就绪队列，或者如果 CPU 空闲，则该进程直接开始运行。

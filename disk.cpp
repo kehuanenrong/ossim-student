@@ -25,7 +25,22 @@ void HardDisk::Request(const int track_no, const int &pid)
     }
     else
     {
-        io_queue.emplace_back(pid, track_no); // 用于存储磁盘的IO请求，记录进程的PID和对应的磁道号
+//        io_queue.emplace_back(pid, track_no); // 用于存储磁盘的IO请求，记录进程的PID和对应的磁道号
+        // SCAN插入：根据当前direction与track_no排序插入
+        if (direction == Inc)
+        {
+            auto it = io_queue.begin();
+            while (it != io_queue.end() && it->second <= track_no)
+                it++;
+            io_queue.insert(it, std::make_pair(pid, track_no));
+        }
+        else
+        {
+            auto it = io_queue.begin();
+            while (it != io_queue.end() && it->second >= track_no)
+                it++;
+            io_queue.insert(it, std::make_pair(pid, track_no));
+        }
     }
 }
 
